@@ -8,8 +8,17 @@ export default function layout({children}){
             <title>My next.JS FUNDAMENTAL</title>
         </head>
         <body>
+            <header>
+                [header]
+            </header>
+            <main>
             {children}
+            </main>
+            <footer>
+                [footer]
+            </footer>
         </body>
         </html>
     )
 }
+
