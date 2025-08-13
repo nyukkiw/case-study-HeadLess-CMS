@@ -1,10 +1,13 @@
+import { ReactNode } from "react";
+// interface LayoutProps{
+//     children: ReactNode;
+// }
+ 
 export default function layout({children}){
     return(
-        
-        <html lang="en">
+    
+<html lang="en">
         <head>
-            <meta charset="UTF-8" />
-            <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <title>My next.JS FUNDAMENTAL</title>
         </head>
         <body>
@@ -18,7 +21,12 @@ export default function layout({children}){
                 [footer]
             </footer>
         </body>
-        </html>
+</html>
     )
 }
+
+//layout ini akan diimplementasikan oleh file file yang ada didalam folder app ini
+//tetapi jika masing masing folder yang didalam folder app ini punya layout sendiri
+//maka layout yang didalam masing masing folder akan digunakan. 
+
 
