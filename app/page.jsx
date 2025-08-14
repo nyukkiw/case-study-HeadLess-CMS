@@ -1,4 +1,13 @@
+'use client'
+
+import { useEffect } from "react";
+
 export default function Home(){
+
+    useEffect(()=>{
+        window.alert("hello next.js");
+    }, []);
+
     console.log('hello world');
     return (
         <>
