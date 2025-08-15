@@ -20,7 +20,7 @@ export default function layout({children}){
                             <Link href="/about">About</Link>
                         </li>
                         <li>
-                            <Link href="/contact">Contact</Link>
+                            <Link href="/contact" prefetch={false}>Contact</Link>
                         </li>
                     </ul>
                 </nav>
@@ -29,7 +29,8 @@ export default function layout({children}){
             {children}
             </main>
             <footer>
-                [footer]
+               <hr />
+               <span>i'm here to stay footer</span>
             </footer>
         </body>
 </html>
