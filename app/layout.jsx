@@ -1,4 +1,6 @@
 import Link from "next/link"
+import './global.css';
+
 export default function layout({children}){
     return(
     
