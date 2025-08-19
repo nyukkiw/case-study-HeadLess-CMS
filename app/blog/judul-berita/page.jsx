@@ -1,7 +1,9 @@
+import Heading from "@/components/Heading"
+
 export default function judulPage(){
     return (
         <>
-    <h1>judul berita</h1>
+    <Heading>judul berita</Heading>
         <p>halaman dari judul berita</p>
         </>
 )

@@ -1,7 +1,9 @@
+import Heading from "@/components/Heading"
+
 export default function aboutPage(){
     return (
         <>
-    <h1>about</h1>
+    <Heading>about</Heading>
         <p>halaman dari about</p>
         </>
 )

@@ -1,5 +1,5 @@
-import Link from "next/link"
-import './global.css';
+import NavBar from "../components/NavBar"
+import './globals.css'
 
 export default function layout({children}){
     return(
@@ -8,30 +8,16 @@ export default function layout({children}){
         <head>
             <title>My next.JS FUNDAMENTAL</title>
         </head>
-        <body>
+        <body className="bg-gray-500 flex flex-col px-4 py-4 min-h-screen">
             <header>
-                <nav>
-                    <ul>
-                        <li>
-                            <Link href="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link href="/blog">Blog</Link>
-                        </li>
-                        <li>
-                            <Link href="/about">About</Link>
-                        </li>
-                        <li>
-                            <Link href="/contact" prefetch={false}>Contact</Link>
-                        </li>
-                    </ul>
-                </nav>
+               <NavBar />
             </header>
-            <main>
+
+            <main className="py-3 grow">
             {children}
             </main>
-            <footer>
-               <hr />
+
+            <footer className="border-t py-3 text-center text-xs">
                <span>i'm here to stay footer</span>
             </footer>
         </body>
