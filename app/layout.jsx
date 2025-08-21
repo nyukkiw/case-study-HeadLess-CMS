@@ -1,10 +1,11 @@
 import NavBar from "../components/NavBar"
+import { roboto } from "./Fonts"
 import './globals.css'
 
 export default function layout({children}){
     return(
     
-<html lang="en">
+<html lang="en" className={roboto.variable}>
         <head>
             <title>My next.JS FUNDAMENTAL</title>
         </head>
