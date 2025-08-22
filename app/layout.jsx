@@ -2,13 +2,19 @@ import NavBar from "../components/NavBar"
 import { roboto } from "./Fonts"
 import './globals.css'
 
+export const metadata = {
+    title: {
+        default: "Situs next.js",
+        template: "%s | Situs next.js"
+    },
+    description: 'Kumpulan materi dan tutorial belajar nextjs'
+}
+
 export default function layout({children}){
     return(
     
 <html lang="en" className={roboto.variable}>
-        <head>
-            <title>My next.JS FUNDAMENTAL</title>
-        </head>
+       
         <body className="bg-gray-500 flex flex-col px-4 py-4 min-h-screen">
             <header>
                <NavBar />

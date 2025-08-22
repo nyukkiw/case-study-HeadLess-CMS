@@ -1,9 +1,7 @@
 ---
 
 title: "Belajar route Next.js"
-
 description: "deskripsi unutk belajar next js"
-
 image: "/images/TENDA XL.jpg"
 date: "26/11/2023"
 author: "admin"
