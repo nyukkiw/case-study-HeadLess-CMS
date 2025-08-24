@@ -15,7 +15,7 @@ export default function layout({children}){
     
 <html lang="en" className={roboto.variable}>
        
-        <body className="bg-gray-500 flex flex-col px-4 py-4 min-h-screen">
+        <body className="bg-blue-200 flex flex-col px-4 py-4 min-h-screen">
             <header>
                <NavBar />
             </header>
