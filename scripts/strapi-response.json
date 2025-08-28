@@ -1,16 +1,83 @@
 {
   "data": [
     {
-      "id": 2,
+      "id": 3,
       "documentId": "h7gbcgh8xia7sd1z3f7noa2c",
       "slug": "belajar-strapi",
       "title": "Belajar strapi",
       "description": "konten strapi",
-      "body": "deskripsi dengan huruf **bold**",
+      "publishedAt": "2025-08-26T10:27:40.420Z",
+      "body": "deskripsi dengan huruf **bold** tambahan apakah authornya ada",
       "image": {
         "id": 6,
         "documentId": "mvgpr8tynr3dow522zaof7gc",
         "url": "/uploads/this_shrimp_is_awesome_bc21f4ec4d.jpeg"
+      },
+      "author": {
+        "id": 3,
+        "documentId": "a7hcuwfxwjald1jg7wlbj04h",
+        "name": "nyanyu",
+        "email": "nyu@gmail.com"
+      }
+    },
+    {
+      "id": 7,
+      "documentId": "tgdwnn7ebvyek3pf47oo5oo1",
+      "slug": "janji-jiwa",
+      "title": "janji jiwa",
+      "description": "cafe jugaaaaa",
+      "publishedAt": "2025-08-26T10:38:47.206Z",
+      "body": "ga tau pokok data dummy ajaaaaaaaaaa. ga tau pokoknya itu lah",
+      "image": {
+        "id": 5,
+        "documentId": "k71xbf7d4xrqv268ltsuvcij",
+        "url": "/uploads/coffee_beans_82d62f5bac.jpeg"
+      },
+      "author": {
+        "id": 4,
+        "documentId": "ziwsszc5colop9jsc8nm5kcr",
+        "name": "admin",
+        "email": "adminn@gmail.com"
+      }
+    },
+    {
+      "id": 9,
+      "documentId": "iqhljbcs2pjlgg9ksjfdtw9y",
+      "slug": "post",
+      "title": "kopi dari hari",
+      "description": "cafe",
+      "publishedAt": "2025-08-26T10:40:28.346Z",
+      "body": "kpi dari hati",
+      "image": {
+        "id": 4,
+        "documentId": "e60i493ewq75jtd2vgp6hocl",
+        "url": "/uploads/coffee_art_52d98e3c0b.jpeg"
+      },
+      "author": {
+        "id": 5,
+        "documentId": "xq5toulpwpfls70xkxx8i2aj",
+        "name": "kopui",
+        "email": "kopi@gmail.com"
+      }
+    },
+    {
+      "id": 11,
+      "documentId": "vqbrnvlewof7s880iou6tnzl",
+      "slug": "capcipcup",
+      "title": "capcipcup",
+      "description": "capcipcup kembang kuncup",
+      "publishedAt": "2025-08-26T10:45:32.845Z",
+      "body": "pilih mana yang harus dikuncup",
+      "image": {
+        "id": 9,
+        "documentId": "zkf2auvlajd4u24otsmwape2",
+        "url": "/uploads/what_s_inside_a_black_hole_4f86bf2135.jpeg"
+      },
+      "author": {
+        "id": 6,
+        "documentId": "z4j6esbx7xjg7m1jtrwzqmgi",
+        "name": "cucup",
+        "email": "cupcup@gmail.com"
       }
     }
   ],
@@ -19,7 +86,7 @@
       "page": 1,
       "pageSize": 25,
       "pageCount": 1,
-      "total": 1
+      "total": 4
     }
   }
 }
