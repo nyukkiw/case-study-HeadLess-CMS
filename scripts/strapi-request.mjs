@@ -1,6 +1,23 @@
 import { writeFileSync } from "node:fs";
+import qs from "qs";
+// const url = "http://localhost:1337/api/posts?filters[id][$eq]=7";
 
-
+ const url =
+  "http://localhost:1337/api/posts/"+ "?" + qs.stringify(
+    {
+        filters: { slug: { $eq: "janji-jiwa" } },
+        fields: ["slug", "title", "description", "publishedAt", "body"],
+        populate: { 
+        image: {fields:["url"]},
+        author: { fields: ["name", "email"] },
+        sort: ["publishedAt:desc"],
+    }, 
+    },
+    { encodeValuesOnly: true }
+    );
+   const response = await fetch(url);
+const body = await response.json();
+  const posts = JSON.stringify(body, null, 2);
 
 
 const file = 'scripts/strapi-response.json'
