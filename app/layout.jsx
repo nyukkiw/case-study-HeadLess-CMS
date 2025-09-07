@@ -25,7 +25,7 @@ export default function layout({children}){
             </main>
 
             <footer className="border-t py-3 text-center text-xs">
-               <span>i'm here to stay footer</span>
+               <span>{"I'm here to stay footer"}</span>
             </footer>
         </body>
 </html>
