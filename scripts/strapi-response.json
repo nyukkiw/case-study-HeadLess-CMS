@@ -1,32 +1,72 @@
 {
   "data": [
     {
-      "id": 7,
-      "documentId": "tgdwnn7ebvyek3pf47oo5oo1",
-      "slug": "janji-jiwa",
-      "title": "janji jiwa",
-      "description": "cafe jugaaaaa",
-      "publishedAt": "2025-08-26T10:38:47.206Z",
-      "body": "ga tau pokok data dummy ajaaaaaaaaaa. ga tau pokoknya itu lah",
+      "id": 21,
+      "documentId": "hi182965t7gymayuo7w7ykay",
+      "slug": "ayam-penyet",
+      "title": "ayam penyet update",
+      "description": "ayam enak",
+      "publishedAt": "2025-09-09T00:53:46.022Z",
+      "body": "enaknyooooo",
       "image": {
-        "id": 5,
-        "documentId": "k71xbf7d4xrqv268ltsuvcij",
-        "url": "/uploads/coffee_beans_82d62f5bac.jpeg"
+        "id": 8,
+        "documentId": "fkmjdh4wfzhl1jnqrij68tlg",
+        "url": "/uploads/beautiful_picture_2b5fb3464c.jpeg"
       },
       "author": {
+        "id": 7,
+        "documentId": "wtkhfpmyq8m7m4oexbwzgs5m",
+        "name": "ayam",
+        "email": "ayam@gmail.com"
+      }
+    },
+    {
+      "id": 11,
+      "documentId": "vqbrnvlewof7s880iou6tnzl",
+      "slug": "capcipcup",
+      "title": "capcipcup",
+      "description": "capcipcup kembang kuncup",
+      "publishedAt": "2025-08-26T10:45:32.845Z",
+      "body": "pilih mana yang harus dikuncup",
+      "image": {
+        "id": 9,
+        "documentId": "zkf2auvlajd4u24otsmwape2",
+        "url": "/uploads/what_s_inside_a_black_hole_4f86bf2135.jpeg"
+      },
+      "author": {
+        "id": 6,
+        "documentId": "z4j6esbx7xjg7m1jtrwzqmgi",
+        "name": "cucup",
+        "email": "cupcup@gmail.com"
+      }
+    },
+    {
+      "id": 9,
+      "documentId": "iqhljbcs2pjlgg9ksjfdtw9y",
+      "slug": "post",
+      "title": "kopi dari hari",
+      "description": "cafe",
+      "publishedAt": "2025-08-26T10:40:28.346Z",
+      "body": "kpi dari hati",
+      "image": {
         "id": 4,
-        "documentId": "ziwsszc5colop9jsc8nm5kcr",
-        "name": "admin",
-        "email": "adminn@gmail.com"
+        "documentId": "e60i493ewq75jtd2vgp6hocl",
+        "url": "/uploads/coffee_art_52d98e3c0b.jpeg"
+      },
+      "author": {
+        "id": 5,
+        "documentId": "xq5toulpwpfls70xkxx8i2aj",
+        "name": "kopui",
+        "email": "kopi@gmail.com"
       }
     }
   ],
   "meta": {
     "pagination": {
       "page": 1,
-      "pageSize": 25,
-      "pageCount": 1,
-      "total": 1
+      "pageSize": 3,
+      "pageCount": 2,
+      "total": 5
     }
   }
 }

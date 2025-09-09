@@ -1,8 +1,9 @@
 
 import Heading from "@/components/Heading"
+import Pagination from "@/components/Pagination";
 import PostCard from "@/components/PostCard"
 import { getAllPosts } from "@/lib/post"
-import Link from "next/link";
+
 
 export const revalidate = 30;
 
@@ -14,18 +15,14 @@ export const metadata = {
 
 export default async function BlogPage({ searchParams}){
   const page = parsePageParam(searchParams.page);
-  const posts = await getAllPosts(3, page);
+  const {pageCount,posts} = await getAllPosts(3, page);
   
   
   return (
         <>
     <Heading>blog</Heading>
         <h2 className="text-2xl mb-3">list of post</h2>
-        <div className="flex gap-3 pb-3">
-          <Link href={`/blog?page=${page-1}`}>&lt;</Link>
-          <span>Page {page}</span>
-          <Link href={`/blog?page=${page+1}`}>&gt;</Link>
-        </div>
+        <Pagination href="/blog" page={page} pageCount={pageCount}/>
         {posts.map((post)=>(
         <PostCard 
         key={post.slug}

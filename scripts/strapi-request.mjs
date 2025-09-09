@@ -5,13 +5,14 @@ import qs from "qs";
  const url =
   "http://localhost:1337/api/posts/"+ "?" + qs.stringify(
     {
-        filters: { slug: { $eq: "janji-jiwa" } },
         fields: ["slug", "title", "description", "publishedAt", "body"],
-        populate: { 
-        image: {fields:["url"]},
-        author: { fields: ["name", "email"] },
-        sort: ["publishedAt:desc"],
-    }, 
+      populate: { 
+          image: {fields:["url"]},
+          author: { fields: ["name", "email"] },
+      
+      }, 
+      sort: ["publishedAt:desc"],
+      pagination: {pageSize: 3, page: 1},
     },
     { encodeValuesOnly: true }
     );
